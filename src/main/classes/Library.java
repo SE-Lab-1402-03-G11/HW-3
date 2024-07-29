@@ -80,8 +80,21 @@ public class Library {
      * @return             The list of students that match the search criteria. Returns null if search type is title or author.
      */
     public ArrayList<Student> searchStudents(SearchByType searchByType, ArrayList<Object> keys) {
-        // TODO complete function
-        return null;
+        if (searchByType == SearchByType.TITLE || searchByType == SearchByType.AUTHOR) {
+            return null;
+        }
+
+        ArrayList<Student> matchingStudents = new ArrayList<>();
+        for (Student student : students) {
+            for (Object key : keys) {
+                if (searchByType == SearchByType.ID && student.getId() == (int) key) {
+                    matchingStudents.add(student);
+                } else if (searchByType == SearchByType.NAME && student.getName().equals(key)) {
+                    matchingStudents.add(student);
+                }
+            }
+        }
+        return matchingStudents.isEmpty() ? null : matchingStudents;
     }
 
     /**
@@ -93,8 +106,23 @@ public class Library {
      * @return             The list of books that match the search criteria. Returns null if search type is name.
      */
     public ArrayList<Book> searchBooks(SearchByType searchByType, ArrayList<Object> keys) {
-        // TODO complete function
-        return null;
+        if (searchByType == SearchByType.NAME) {
+            return null;
+        }
+
+        ArrayList<Book> matchingBooks = new ArrayList<>();
+        for (Book book : books) {
+            for (Object key : keys) {
+                if (searchByType == SearchByType.ID && book.getId() == (int) key) {
+                    matchingBooks.add(book);
+                } else if (searchByType == SearchByType.TITLE && book.getTitle().equals(key)) {
+                    matchingBooks.add(book);
+                } else if (searchByType == SearchByType.AUTHOR && book.getAuthor().equals(key)) {
+                    matchingBooks.add(book);
+                }
+            }
+        }
+        return matchingBooks.isEmpty() ? null : matchingBooks;
     }
 
     /**
