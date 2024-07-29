@@ -41,6 +41,17 @@ public class LibraryTest {
 	}
 
 	@Test
+	public void testBookShouldRegisterBeforeLending() {
+		Library library = new Library();
+
+		Book book1 = new Book("Book-1", "Author-1", 10);
+
+		Student student1 = new Student("Alice", 10);
+
+		assertFalse(library.lendBook(book1, student1));
+	}
+
+	@Test
 	public void testSearchStudents_return_null() throws Exception{
 		Student student1 = new Student("John Doe", 1);
 		Student student2 = new Student("Mahdi Q", 2);

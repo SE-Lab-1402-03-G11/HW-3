@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a81c757-68ba-4cfb-8c0b-b2528a6e7036" name="Changes" comment="" />
+    <list default="true" id="4a81c757-68ba-4cfb-8c0b-b2528a6e7036" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-3/main/classes/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-3/main/classes/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW-3/test/classes/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW-3/test/classes/LibraryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/classes/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/classes/LibraryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,24 +26,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/behzad/Documents/GitHub/HW-3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/behzad/Documents/GitHub/HW-3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
+}</component>
+  <component name="RunManager" selected="JUnit.LibraryTest.testBookShouldRegisterBeforeLending">
+    <configuration name="All in HW-3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW-3" />
       <extension name="coverage">
@@ -54,7 +67,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.testSearchBooks_handle_duplicate_author" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.testBookShouldRegisterBeforeLending" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW-3" />
       <extension name="coverage">
         <pattern>
@@ -64,7 +77,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.classes" />
       <option name="MAIN_CLASS_NAME" value="test.classes.LibraryTest" />
-      <option name="METHOD_NAME" value="testSearchBooks_handle_duplicate_author" />
+      <option name="METHOD_NAME" value="testBookShouldRegisterBeforeLending" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.testSearchBooks_search_by_author" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.classes in HW-3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HW-3" />
       <extension name="coverage">
         <pattern>
@@ -95,19 +108,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.classes" />
-      <option name="MAIN_CLASS_NAME" value="test.classes.LibraryTest" />
-      <option name="METHOD_NAME" value="testSearchBooks_search_by_author" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.testBookShouldRegisterBeforeLending" />
+        <item itemvalue="JUnit.All in HW-3" />
+        <item itemvalue="JUnit.test.classes in HW-3" />
         <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="JUnit.LibraryTest.testSearchBooks_handle_duplicate_id" />
-        <item itemvalue="JUnit.LibraryTest.testSearchBooks_search_by_author" />
-        <item itemvalue="JUnit.LibraryTest.testSearchBooks_handle_duplicate_author" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +131,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722238347420</updated>
-      <workItem from="1722238348574" duration="8191000" />
+      <workItem from="1722238348574" duration="8371000" />
+      <workItem from="1722280620643" duration="720000" />
+      <workItem from="1722282052057" duration="129000" />
+      <workItem from="1722282188659" duration="1669000" />
+      <workItem from="1722284465221" duration="311000" />
     </task>
     <servers />
   </component>
@@ -127,15 +143,19 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HW_3$test_classes_in_HW_3.ic" NAME="test.classes in HW-3 Coverage Results" MODIFIED="1722284501795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.classes.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/HW_3$LibraryTest_testSearchBooks_search_by_author.ic" NAME="LibraryTest.testSearchBooks_search_by_author Coverage Results" MODIFIED="1722275859755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.classes.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/HW_3$LibraryTest_testSearchBooks_handle_duplicate_author.ic" NAME="LibraryTest.testSearchBooks_handle_duplicate_author Coverage Results" MODIFIED="1722275318772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.classes.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/HW_3$LibraryTest.ic" NAME="LibraryTest Coverage Results" MODIFIED="1722276297023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/HW_3$LibraryTest.ic" NAME="LibraryTest Coverage Results" MODIFIED="1722280662051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.classes.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/HW_3$All_in_HW_3.ic" NAME="All in HW-3 Coverage Results" MODIFIED="1722284568657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/HW_3$LibraryTest_testSearchBooks_handle_duplicate_id.ic" NAME="LibraryTest.testSearchBooks_handle_duplicate_id Coverage Results" MODIFIED="1722276275427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>test.classes.*</FILTER>
     </SUITE>
