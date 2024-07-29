@@ -23,4 +23,16 @@ public class LibraryTest {
 
 		assertFalse(student1.hasBook(book1));
 	}
+
+	@Test
+	public void testStudentShouldRegisterBeforeLendingABook() {
+		Library library = new Library();
+
+		Book book1 = new Book("Book-1", "Author-1", 10);
+		library.addBook(book1);
+
+		Student student1 = new Student("Alice", 10);
+
+		assertFalse(library.lendBook(book1, student1));
+	}
 } 
