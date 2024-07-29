@@ -189,7 +189,7 @@ public class LibraryTest {
 	
 
 		libray.lendBook(book1, student);
-		books = libray.searchBooks(SearchByType.TITLE, key);
+		books = libray.searchBooks(SearchByType.AUTHOR, key);
 		assertEquals(1, books.size());
 		assertEquals(book2, books.get(0));	
 	}
@@ -265,9 +265,9 @@ public class LibraryTest {
 	
 
 		libray.lendBook(book1, student);
-		books = libray.searchBooks(SearchByType.TITLE, key);
+		books = libray.searchBooks(SearchByType.AUTHOR, key);
 		assertEquals(1, books.size());
-		assertEquals(book2, books.get(0));	
+		assertEquals(book2, books.get(0));
 	}
 
 	@Test
@@ -283,6 +283,7 @@ public class LibraryTest {
 
 
 		Book book2 =  new Book("Lord of the Rings: The Fellowship of the Ring", "J.R.R. Tolkien", 1);
+		libray.addBook(book2);
 		ArrayList<Book> books = libray.searchBooks(SearchByType.ID, key);
 		assertEquals(2, books.size());
 	
