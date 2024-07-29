@@ -55,3 +55,7 @@
 <p>میزان پوشش یافتن کلاس‌ها را در تصویر زیر مشاهده می‌کنید:</p>
 
 ![کد بخش اول](https://github.com/SE-Lab-1402-03-G11/HW-3/blob/main/Pictures/test%20coverage.png)
+<h3>پرسش چهارم</h3>
+<p>میزان پوشش یافتن کلاس‌ها را در تصویر زیر پس از اضافه کردن تست‌ها مشاهده می‌کنید:</p>
+
+![کد بخش اول](https://github.com/SE-Lab-1402-03-G11/HW-3/blob/main/Pictures/new%20coverage.jpg)
