@@ -4,15 +4,24 @@
 <p>در این قسمت ابتدا ایراداتی که در کد وجود دارند را می‌یابیم و سپس با استفاده از رویکرد TDD آن‌ها را اصلاح می‌کنیم.</p>
 <h3>ایراد اول</h3>
 <p>اولین ایرادی که توجه ما را به خود جلب کرد، مربوط به تابع lendBook در کلاس Library بود. مطابق کامنتی که بالای تابع قرار گرفته‌است، انتظار می‌رود اگر یک دانشجو قبلا وارد سامانه نشده‌بود، نتوانیم به او کتابی قرض بدهیم. برای آن که نشان دهیم این انتظار برآورده نشده‌است، از آزمون زیر استفاده کردیم که همان‌طور که می‌بینید در ابتدا fail شده‌است:</p>
+
 ![آزمون اول](https://github.com/SE-Lab-1402-03-G11/HW-3/blob/AliRahmizad/Document/FirstPart/Pictures/Test1.png)
+
 ![رد شدن آزمون اول](https://github.com/SE-Lab-1402-03-G11/HW-3/blob/AliRahmizad/Document/FirstPart/Pictures/Test1%20Failed.png)
+
 <p>برای رفع این ایراد لازم بود این چند خط را به بدنه‌ی تابع اضافه کنیم و پس از آن کدی به دست آمد در این آزمون پذیرفته شد:</p>
+
 ![کد بخش اول](https://github.com/SE-Lab-1402-03-G11/HW-3/blob/AliRahmizad/Document/FirstPart/Pictures/Test1%20Passed.png)
+
 <h3>ایراد دوم</h3>
 <p>دومین ایرادی که توجه ما را به خود جلب کرد، مربوط به تابع returnBook در کلاس Library بود. مطابق کامنتی که بالای تابع قرار گرفته‌است، انتظار می‌رود اگر کتاب از دانشجو پس گرفته‌شد، از فهرست کتاب‌هایی که در اختیار اوست حذف شود. برای آن که نشان دهیم این انتظار برآورده نشده‌است، از آزمون زیر استفاده کردیم که همان‌طور که می‌بینید در ابتدا fail شده‌است:</p>
+
 ![آزمون دوم](https://github.com/SE-Lab-1402-03-G11/HW-3/blob/AliRahmizad/Document/FirstPart/Pictures/Test2.png)
+
 ![رد شدن آزمون دوم](https://github.com/SE-Lab-1402-03-G11/HW-3/blob/AliRahmizad/Document/FirstPart/Pictures/Test2%20Failed.png)
+
 <p>:برای رفع این ایراد لازم بود این خط را به بدنه‌ی تابع اضافه کنیم و پس از آن کدی به دست آمد در این آزمون پذیرفته شد:</p>
+
 ![کد بخش دوم](https://github.com/SE-Lab-1402-03-G11/HW-3/blob/AliRahmizad/Document/FirstPart/Pictures/Test2%20Passed.png)
 
 <h2>پرسش‌ها</h2>
